@@ -1,0 +1,1 @@
+kill -KILL $( cat /usr/local/nginx/logs/nginx.pid )
