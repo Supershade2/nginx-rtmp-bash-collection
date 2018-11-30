@@ -16,7 +16,7 @@ sudo rm -r ./"nginx-$nginx_release"
 
 sudo rm -f ./"nginx-$nginx_release".tar.gz
 
-RTMPVERSION=$(curl -s 'https://api.github.com/repos/sergey-dryabzhinsky/nginx-rtmp-module/tags' | jq -r '.[1] | .name')
+#RTMPVERSION=$(curl -s 'https://api.github.com/repos/sergey-dryabzhinsky/nginx-rtmp-module/tags' | jq -r '.[1] | .name')
 
 #git clone --branch $nginx_release https://github.com/nginx/nginx.git
 
@@ -26,7 +26,7 @@ echo "nginx-$nginx_release"
 
 #wget https://www.zlib.net/zlib-1.2.11.tar.gz && tar xzvf zlib-1.2.11.tar.gz
 
-git clone --branch $RTMPVERSION https://github.com/sergey-dryabzhinsky/nginx-rtmp-module.git
+git clone --branch dev https://github.com/sergey-dryabzhinsky/nginx-rtmp-module.git
 
 #cd ./"nginx-$nginx_release"
 
