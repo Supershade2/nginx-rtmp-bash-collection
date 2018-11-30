@@ -1,25 +1,5 @@
-sudo apt-get -y install w3m w3m-img
-sudo apt -y install curl
-sudo apt -y install git
-chmod +x ./certify.sh
-chmod +x ./create.sh
-chmod +x ./documentation.sh
-chmod +x ./force_stop.sh
-chmod +x ./help.sh
-chmod +x ./reload.sh
-chmod +x ./restart.sh
-chmod +x ./start.sh
-chmod +x ./uninstall.sh
-sudo mv ./certify.sh /usr/local/sbin/
-sudo mv ./create.sh /usr/local/sbin/
-sudo mv ./documentation.sh /usr/local/sbin/
-sudo mv ./basic_config/documentation /usr/local/sbin/
-sudo mv ./force_stop.sh /usr/local/sbin/
-sudo mv ./help.sh /usr/local/sbin/
-sudo mv ./reload.sh /usr/local/sbin/
-sudo mv ./restart.sh /usr/local/sbin/
-sudo mv ./start.sh /usr/local/sbin/
-create.sh
-help.sh
-echo -e "\n to have this printed every time you login run the command 'help.sh >> /etc/motd' in a root or sudo '-i' shell"
-sudo rm -f ./setup.sh
+#!/bin/bash
+mkdir backup
+sudo cp /usr/local/nginx/conf/nginx.conf ./backup
+sudo cp /home/nginx-rtmp-bash-collection/nginx_bash/basic_config/nginx.conf /usr/local/nginx/conf/
+reload.sh
