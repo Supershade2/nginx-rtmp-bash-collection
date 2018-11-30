@@ -12,9 +12,9 @@ nginx_release=$(curl -s 'https://api.github.com/repos/nginx/nginx/tags' | jq -r 
 
 nginx_release=${nginx_release##*-}
 
-sudo rm -r ./"nginx-$nginx_release"
+sudo rm -r ./"nginx-1.15.6"
 
-sudo rm -f ./"nginx-$nginx_release".tar.gz
+sudo rm -f ./"nginx-1.15.6".tar.gz
 
 #RTMPVERSION=$(curl -s 'https://api.github.com/repos/sergey-dryabzhinsky/nginx-rtmp-module/tags' | jq -r '.[1] | .name')
 
