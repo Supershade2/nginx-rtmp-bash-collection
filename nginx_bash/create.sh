@@ -40,4 +40,4 @@ sudo make install clean
 
 echo $nginx_release
 
-echo $RTMPVERSION
+#echo $RTMPVERSION
