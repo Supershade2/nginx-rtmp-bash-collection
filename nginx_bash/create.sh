@@ -22,8 +22,6 @@ sudo rm -f ./"nginx-1.15.6".tar.gz
 
 #wget http://nginx.org/download/"nginx-$nginx_release".tar.gz && tar -zxvf "nginx-$nginx_release".tar.gz
 
-echo "nginx-$nginx_release"
-
 #wget https://www.zlib.net/zlib-1.2.11.tar.gz && tar xzvf zlib-1.2.11.tar.gz
 
 git clone --branch dev https://github.com/sergey-dryabzhinsky/nginx-rtmp-module.git
