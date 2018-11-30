@@ -9,7 +9,7 @@ chmod +x ./help.sh
 chmod +x ./basic_config/push_config.sh
 chmod +x ./reload.sh
 chmod +x ./restart.sh
-chmod +x ./basic_conf/restore.sh
+chmod +x ./basic_conf/restore_config.sh
 chmod +x ./start.sh
 chmod +x ./uninstall.sh
 sudo mv ./certify.sh /usr/local/sbin/
@@ -21,7 +21,7 @@ sudo mv ./help.sh /usr/local/sbin/
 sudo mv ./basic_conf/push_config.sh /usr/local/sbin/
 sudo mv ./reload.sh /usr/local/sbin/
 sudo mv ./restart.sh /usr/local/sbin/
-sudo mv ./basic_conf/restore.sh /usr/local/sbin
+sudo mv ./basic_conf/restore_config.sh /usr/local/sbin
 sudo mv ./start.sh /usr/local/sbin/
 create.sh
 help.sh
