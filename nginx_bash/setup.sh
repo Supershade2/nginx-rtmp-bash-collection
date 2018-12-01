@@ -18,10 +18,10 @@ sudo mv ./documentation.sh /usr/local/sbin/
 sudo mv ./basic_config/documentation /usr/local/sbin/
 sudo mv ./force_stop.sh /usr/local/sbin/
 sudo mv ./help.sh /usr/local/sbin/
-sudo mv ./basic_conf/push_config.sh /usr/local/sbin/
+sudo mv ./basic_config/push_config.sh /usr/local/sbin/
 sudo mv ./reload.sh /usr/local/sbin/
 sudo mv ./restart.sh /usr/local/sbin/
-sudo mv ./basic_conf/restore_config.sh /usr/local/sbin
+sudo mv ./basic_config/restore_config.sh /usr/local/sbin
 sudo mv ./start.sh /usr/local/sbin/
 create.sh
 help.sh
