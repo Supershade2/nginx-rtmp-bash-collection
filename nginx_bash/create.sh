@@ -1,4 +1,4 @@
-sudo apt-get install build-essential libpcre3 libpcre3-dev libssl-dev libaio1 libaio-dev
+sudo apt-get -y install build-essential libpcre3 libpcre3-dev libssl-dev libaio1 libaio-dev
 
 cd /home
 
