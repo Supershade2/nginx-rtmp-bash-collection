@@ -38,7 +38,7 @@
 		"nginx": "http://nginx.org/en/docs/dirindex.html"
 	},
 	{
-		"name": "examples"
+		"name": "examples",
 		"brief": "This section provides examples on configuring options or using nginx"
 	}
 ]
