@@ -24,7 +24,7 @@ sudo cp ./creation/basic/create.sh /usr/local/sbin/
 echo -e "\nUse offline documentation y/n:"
 read answer
 if [ "$answer" != "n" ]; then
-sudo cp ./documentation /usr/local/sbin/
+sudo rsync -r ./documentation /usr/local/sbin/
 sudo cp ./doc_scripts/offline/documentation.sh /usr/local/sbin/
 else
 sudo apt-get -y install w3m w3m-img
