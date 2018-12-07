@@ -15,3 +15,4 @@ then
 echo -e "\nInitiating setup for selected configuration...\n"
 chmod +x ./setups/basic/setup.sh
 ./setups/basic/setup.sh
+fi
