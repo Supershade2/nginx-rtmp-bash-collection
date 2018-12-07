@@ -1,5 +1,7 @@
 #!/bin/bash
-sudo mkdir /home/$(whoami)/Documents
+username=$(whoami);
+sudo mkdir /home/$username/Documents/backup/nginx
+sudo mkdir /home/$username/Documents
 sudo mkdir /usr/local/sbin/configscripts
 sudo mkdir /usr/local/sbin/configscripts/basic
 sudo mkdir /usr/local/sbin/configscripts/RTMP
