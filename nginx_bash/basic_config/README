@@ -1,8 +1,0 @@
-1. Place nginx.conf in /usr/local/nginx/conf
-2. Change commented bits in url to whatever fits your needs or use case, if you need authentication
-an example can be found at https://smartshitter.com/musings/2018/06/nginx-rtmp-streaming-with-slightly-improved-authentication/
-3. Run reload.sh, correct errors as needed
-4. For information on terms or assistance with configuration run documentation.sh
-5. Additional information can be found on the official documentation pages for nginx: https://nginx.org/en/docs/
-and the RTMP module: https://github.com/sergey-dryabzhinsky/nginx-rtmp-module/wiki
-6. Your server is ready to be streamed to using rtmp://#domain_or_IP/#NAME_STREAMKEYHERE
