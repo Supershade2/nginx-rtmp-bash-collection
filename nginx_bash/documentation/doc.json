@@ -39,6 +39,6 @@
 	},
 	{
 		"name": "examples"
-		"brief":"This section provides examples on configuring options or using nginx"
+		"brief": "This section provides examples on configuring options or using nginx"
 	}
 ]
