@@ -11,5 +11,12 @@ sudo rm -f /usr/local/sbin/reload.sh
 sudo rm -f /usr/local/sbin/restart.sh
 sudo rm -f /usr/local/sbin/restore_config.sh
 sudo rm -f /usr/local/sbin/start.sh
+echo "Relocate nginx? y/n:"
+read answer
+if [ "$answer" = "y" ]; then
+sudo mv /usr/local/nginx /home/$(whoami)/Documents/nginx
+else
 sudo rm -r /usr/local/nginx
-sudo rm -f ./uninstall.sh
+fi
+sudo rm -r /usr/local/sbin/configscripts
+#sudo rm -f ./uninstall.sh
