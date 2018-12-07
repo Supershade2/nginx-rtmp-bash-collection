@@ -7,6 +7,7 @@ sudo apt -y install git
 sudo apt-get -y install -f
 cd ../
 chmod +x ../certify.sh
+chmod +x ../configman.sh
 chmod +x ../creation/basic/create.sh
 chmod +x ../doc_scripts/offline/documentation.sh
 chmod +x ../doc_scripts/online/documentation.sh
@@ -19,6 +20,7 @@ chmod +x ../configs/basic/restore_config.sh
 chmod +x ../start.sh
 chmod +x ../uninstall.sh
 sudo cp ../certify.sh /usr/local/sbin/
+sudo cp ../configman.sh /usr/local/sbin/
 sudo cp ../creation/basic/create.sh /usr/local/sbin/
 echo -e "\nUse offline documentation y/n:"
 read answer
