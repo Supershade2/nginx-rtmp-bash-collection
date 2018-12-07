@@ -19,4 +19,4 @@ else
 sudo rm -r /usr/local/nginx
 fi
 sudo rm -r /usr/local/sbin/configscripts
-sudo rm -f ./uninstall.sh
+#sudo rm -f ./uninstall.sh

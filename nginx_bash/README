@@ -1,5 +1,5 @@
 #These scripts have been tested to work with ubuntu 18.04 use on other systems at your own risk!
-1. make sure to chmod +x ./menu.sh
+1. <p>make sure to </p><pre><code>chmod +x ./menu.sh</code></pre>
 2. optionally run certify.sh (see example config alluded to in step 3)
 3. navigate to configs folder and read README
 4. Follow README directions

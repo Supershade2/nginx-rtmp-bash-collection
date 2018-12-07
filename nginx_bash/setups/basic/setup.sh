@@ -41,5 +41,5 @@ sudo cp ../start.sh /usr/local/sbin/
 sudo cp ../uninstall.sh /usr/local/sbin/
 create.sh
 help.sh
-echo -e "\n to have this printed every time you login run the command 'help.sh >> /etc/motd' in a root or sudo '-i' shell"
-sudo rm -f ./setups/basic/setup.sh
+echo -e "\n to have this printed every time you login run the command 'help.sh >> /etc/motd' in a root or sudo '-i' shell.\nSetup finished."
+#sudo rm -f ./setups/basic/setup.sh
