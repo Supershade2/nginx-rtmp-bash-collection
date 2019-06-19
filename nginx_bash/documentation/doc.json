@@ -40,5 +40,11 @@
 	{
 		"name": "examples",
 		"brief": "This section provides examples on configuring options or using nginx"
+	},
+	{
+		"name": "discord integration",
+		"details": "Discord integration requires the installation of mono for your linux server which can be found under mono, and a discord bot to deliver notifications a template bot can be found under template",
+		"mono": "https://www.mono-project.com/download/stable/#download-lin",
+		"template": "https://github.com/Supershade2/DSharpPlus_sendmessage_bot"
 	}
 ]
