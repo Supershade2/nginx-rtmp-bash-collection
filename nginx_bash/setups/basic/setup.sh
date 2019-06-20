@@ -42,7 +42,7 @@ sudo cp ./restart.sh /usr/local/sbin/
 sudo cp ./configs/basic/restore_config.sh /usr/local/sbin/configscripts/basic/
 sudo cp ./start.sh /usr/local/sbin/
 sudo cp ./uninstall.sh /usr/local/sbin/
-sudo cp ./configman.sh /usr/local/sbin
+sudo cp ./configman.sh /usr/local/sbin/
 create.sh
 help.sh
 echo -e "\n to have this printed every time you login run the command 'help.sh >> /etc/motd' in a root or sudo '-i' shell.\nSetup finished."
