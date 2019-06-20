@@ -1,7 +1,9 @@
 #!/bin/bash
 username=$(whoami);
-sudo mkdir /home/$username/Documents/backup/nginx
+sudo mkdir /home/$username
 sudo mkdir /home/$username/Documents
+sudo mkdir /home/$username/Documents/backup
+sudo mkdir /home/$username/Documents/backup/nginx
 sudo mkdir /usr/local/sbin/configscripts
 sudo mkdir /usr/local/sbin/configscripts/basic
 sudo mkdir /usr/local/sbin/configscripts/RTMP
