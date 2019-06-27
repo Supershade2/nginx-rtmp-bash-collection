@@ -1,5 +1,8 @@
 #!/bin/bash
 echo -e "Which config did you wish to handle?:\n1.RTMP\n2.basic\n3.advanced\n"
+answer=0
+while [ "$answer" = 0 ]
+do
 read answer
 if [ "$answer" = "1" ] || [ "$answer" = "3" ]; then
 echo "Not yet implemented"
@@ -16,3 +19,4 @@ else
 echo -e "\nInvalid option selected please pick a number"
 fi
 fi
+done
