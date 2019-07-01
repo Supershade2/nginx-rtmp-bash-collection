@@ -1,6 +1,10 @@
 sudo apt-get -y install build-essential libpcre3 libpcre3-dev libssl-dev libaio1 libaio-dev jq
 sudo apt-get -y install -f
-cd /home/$(whoami)/Documents
+cd /home
+mkdir ./$(whoami)
+cd ./$(whoami)
+mkdir ./Documents
+cd ./Documents
 #wget http://nginx.org/download/nginx-1.15.6.tar.gz && tar -zxvf nginx-1.15.6.tar.gz
 nginx_release=$(curl -s 'https://api.github.com/repos/nginx/nginx/tags' | jq -r '.[0] | .name')
 nginx_release=${nginx_release##*-}
