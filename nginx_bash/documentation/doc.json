@@ -24,7 +24,8 @@
 	},
 	{
 		"name": "domain/ip",
-		"brief": "These commented bits are found as domain_or_ip in /usr/local/nginx/conf/nginx.conf\\n need to be replaced/updated with the ip address of the machine running nginx which can be found by using ifconfig under eth0 -> inet 'address'.\\n domain would be something like example.com or www.example.com, specifically the 'example' bit in the prior example.\\n Domains can be set up using a variety of services like no-ip.com, get.tech, and dot.tk to name a few.\\n It is reccomended to set and use a static ip when using a domain, although not necessarily required by all domain providers like no-ip.\\n Local domain configurations can be done as well but require dns setup/configuration which is something that will not be covered in the documentation provided here"
+		"brief": "These commented bits are found as domain_or_ip in /usr/local/nginx/conf/nginx.conf\\n need to be replaced/updated with the ip address of the machine running nginx which can be found by using ifconfig under eth0 -> inet 'address'.\\n domain would be something like example.com or www.example.com, specifically the 'example' bit in the prior example.\\n Domains can be set up using a variety of services like no-ip.com, get.tech, and dot.tk to name a few.\\n It is reccomended to set and use a static ip when using a domain, although not necessarily required by all domain providers like no-ip.\\n Local domain configurations can be done as well but require dns setup/configuration which is something that will not be covered in the documentation provided here",
+		"dns":	"https://opensource.com/article/17/4/build-your-own-name-server"
 	},
 	{
 		"name": "hls",
