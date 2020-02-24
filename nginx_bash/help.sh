@@ -6,7 +6,7 @@ This is to be used when you wish to make changes without temporarily taking the 
 
 To restart nginx use restart.sh, this is to be used if issues rise up or stream hanging occurs.
 
-To recreate mcstreams or update the nginx system run create.sh.
+To recreate the service or update the nginx system run create.sh.
 
 To certify the server which needs to be done periodically if using certbot
 run certify.sh and fill in the options it provides for domains with your domain names
